@@ -1,0 +1,19 @@
+{
+    "name": "todo-list",
+    "version": "1.0.0",
+    "description": "todo-list",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app/index.js",
+        "dev": "nodemon app/index.js"
+    },
+    "author": "Hao",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.14"
+    },
+    "dependencies": {
+        "yargs": "^17.2.1"
+    }
+}
